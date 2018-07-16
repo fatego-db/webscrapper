@@ -36,6 +36,7 @@ yarn importdb
    - [x] hp stat growth
    - [ ] active skills
    - [ ] passive skills
+   - [ ] availability
 2. Craft Essence
    - [ ] name
    - [ ] effects
