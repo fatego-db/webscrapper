@@ -1,10 +1,11 @@
 {
   "name": "fatego-scrapper",
   "version": "0.0.1",
-  "description": "",
+  "description": "FateGo Gamepress Webscrapper",
   "main": "src/scapper.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "scrape": "node src/scrapper.js",
+    "import": "node src/importer.js"
   },
   "author": "David Lam",
   "license": "MIT",
