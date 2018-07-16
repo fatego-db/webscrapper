@@ -1,7 +1,7 @@
 [
   {
     "name": "Kiyohime (Lancer)",
-    "field": "Lancer",
+    "class": "Lancer",
     "servantId": "134",
     "release": "JP",
     "rating": "4",
@@ -9,7 +9,7 @@
   },
   {
     "name": "Scathach (Assassin)",
-    "field": "Assassin",
+    "class": "Assassin",
     "servantId": "133",
     "release": "JP",
     "rating": "4",
@@ -17,7 +17,7 @@
   },
   {
     "name": "Houzouin Inshun",
-    "field": "Lancer",
+    "class": "Lancer",
     "servantId": "186",
     "release": "JP",
     "rating": "3",
@@ -229,7 +229,7 @@
   },
   {
     "name": "Wu Zetian",
-    "field": "Assassin",
+    "class": "Assassin",
     "servantId": "170",
     "release": "JP",
     "rating": "4",
@@ -441,7 +441,7 @@
   },
   {
     "name": "King Hassan",
-    "field": "Assassin",
+    "class": "Assassin",
     "servantId": "154",
     "release": "JP",
     "rating": "5",
@@ -653,7 +653,7 @@
   },
   {
     "name": "Elisabeth Bathory (Brave)",
-    "field": "Saber",
+    "class": "Saber",
     "servantId": "138",
     "release": "JP",
     "rating": "4",
@@ -865,7 +865,7 @@
   },
   {
     "name": "Tristan",
-    "field": "Archer",
+    "class": "Archer",
     "servantId": "122",
     "release": "NA",
     "rating": "4",
@@ -1077,7 +1077,7 @@
   },
   {
     "name": "Mochizuki Chiyome",
-    "field": "Assassin",
+    "class": "Assassin",
     "servantId": "185",
     "release": "JP",
     "rating": "4",
@@ -1289,7 +1289,7 @@
   },
   {
     "name": "Scheherazade",
-    "field": "Caster",
+    "class": "Caster",
     "servantId": "169",
     "release": "JP",
     "rating": "5",
@@ -1501,7 +1501,7 @@
   },
   {
     "name": "Chloe von Einzbern",
-    "field": "Archer",
+    "class": "Archer",
     "servantId": "137",
     "release": "JP",
     "rating": "4",
@@ -1713,7 +1713,7 @@
   },
   {
     "name": "Lancelot (Saber)",
-    "field": "Saber",
+    "class": "Saber",
     "servantId": "121",
     "release": "NA",
     "rating": "4",
@@ -1925,7 +1925,7 @@
   },
   {
     "name": "Tomoe Gozen",
-    "field": "Archer",
+    "class": "Archer",
     "servantId": "184",
     "release": "JP",
     "rating": "4",
@@ -2137,7 +2137,7 @@
   },
   {
     "name": "Beast III/R",
-    "field": "",
+    "class": "",
     "servantId": "168",
     "release": "JP",
     "rating": "5",
@@ -2349,7 +2349,7 @@
   },
   {
     "name": "Solomon (Grand Caster)",
-    "field": "",
+    "class": "",
     "servantId": "83",
     "release": "JP",
     "rating": "5",
@@ -2561,7 +2561,7 @@
   },
   {
     "name": "Illyasviel von Einzbern",
-    "field": "Caster",
+    "class": "Caster",
     "servantId": "136",
     "release": "JP",
     "rating": "5",
@@ -2773,7 +2773,7 @@
   },
   {
     "name": "Nitocris",
-    "field": "Caster",
+    "class": "Caster",
     "servantId": "120",
     "release": "NA",
     "rating": "4",
@@ -2985,7 +2985,7 @@
   },
   {
     "name": "Parvati",
-    "field": "Lancer",
+    "class": "Lancer",
     "servantId": "183",
     "release": "JP",
     "rating": "4",
@@ -3197,7 +3197,7 @@
   },
   {
     "name": "Goetia",
-    "field": "",
+    "class": "",
     "servantId": "151",
     "release": "JP",
     "rating": "5",
@@ -3409,7 +3409,7 @@
   },
   {
     "name": "Saint Martha (Ruler)",
-    "field": "Ruler",
+    "class": "Ruler",
     "servantId": "135",
     "release": "JP",
     "rating": "4",
@@ -3621,7 +3621,7 @@
   },
   {
     "name": "Altria Pendragon (Lancer)",
-    "field": "Lancer",
+    "class": "Lancer",
     "servantId": "119",
     "release": "NA",
     "rating": "5",
@@ -3833,7 +3833,7 @@
   },
   {
     "name": "Ishtar (Rider)",
-    "field": "Rider",
+    "class": "Rider",
     "servantId": "182",
     "release": "JP",
     "rating": "4",
@@ -4045,7 +4045,7 @@
   },
   {
     "name": "BB",
-    "field": "",
+    "class": "",
     "servantId": "166",
     "release": "JP",
     "rating": "4",
@@ -4257,7 +4257,7 @@
   },
   {
     "name": "Ozymandias",
-    "field": "Rider",
+    "class": "Rider",
     "servantId": "118",
     "release": "NA",
     "rating": "5",
@@ -4469,7 +4469,7 @@
   },
   {
     "name": "Minamoto no Raikou (Lancer)",
-    "field": "Lancer",
+    "class": "Lancer",
     "servantId": "181",
     "release": "JP",
     "rating": "4",
@@ -4681,7 +4681,7 @@
   },
   {
     "name": "Suzuka Gozen",
-    "field": "Saber",
+    "class": "Saber",
     "servantId": "165",
     "release": "JP",
     "rating": "4",
@@ -4893,7 +4893,7 @@
   },
   {
     "name": "Tiamat",
-    "field": "",
+    "class": "",
     "servantId": "149",
     "release": "JP",
     "rating": "5",
@@ -5105,7 +5105,7 @@
   },
   {
     "name": "Helena Blavatsky (Archer)",
-    "field": "Archer",
+    "class": "Archer",
     "servantId": "180",
     "release": "JP",
     "rating": "4",
@@ -5317,7 +5317,7 @@
   },
   {
     "name": "Passionlip",
-    "field": "Alter Ego",
+    "class": "AlterEgo",
     "servantId": "164",
     "release": "JP",
     "rating": "4",
@@ -5529,7 +5529,7 @@
   },
   {
     "name": "Mordred (Rider)",
-    "field": "Rider",
+    "class": "Rider",
     "servantId": "132",
     "release": "JP",
     "rating": "4",
@@ -5741,7 +5741,7 @@
   },
   {
     "name": "Altria Pendragon (Rider Alter)",
-    "field": "Rider",
+    "class": "Rider",
     "servantId": "179",
     "release": "JP",
     "rating": "5",
@@ -5953,7 +5953,7 @@
   },
   {
     "name": "Meltryllis",
-    "field": "Alter Ego",
+    "class": "AlterEgo",
     "servantId": "163",
     "release": "JP",
     "rating": "5",
@@ -6165,7 +6165,7 @@
   },
   {
     "name": "Gorgon",
-    "field": "Avenger",
+    "class": "Avenger",
     "servantId": "147",
     "release": "JP",
     "rating": "4",
@@ -6377,7 +6377,7 @@
   },
   {
     "name": "Anne Bonny & Mary Read (Archer)",
-    "field": "Archer",
+    "class": "Archer",
     "servantId": "131",
     "release": "JP",
     "rating": "4",
@@ -6589,7 +6589,7 @@
   },
   {
     "name": "Oda Nobunaga (Berserker)",
-    "field": "Berserker",
+    "class": "Berserker",
     "servantId": "178",
     "release": "JP",
     "rating": "4",
@@ -6801,7 +6801,7 @@
   },
   {
     "name": "Chacha",
-    "field": "Berserker",
+    "class": "Berserker",
     "servantId": "162",
     "release": "JP",
     "rating": "4",
@@ -7013,7 +7013,7 @@
   },
   {
     "name": "Medusa (Lancer)",
-    "field": "Lancer",
+    "class": "Lancer",
     "servantId": "146",
     "release": "JP",
     "rating": "4",
@@ -7225,7 +7225,7 @@
   },
   {
     "name": "Marie Antoinette (Caster)",
-    "field": "Caster",
+    "class": "Caster",
     "servantId": "130",
     "release": "JP",
     "rating": "4",
@@ -7437,7 +7437,7 @@
   },
   {
     "name": "Nitocris (Assassin)",
-    "field": "Assassin",
+    "class": "Assassin",
     "servantId": "177",
     "release": "JP",
     "rating": "4",
@@ -7649,7 +7649,7 @@
   },
   {
     "name": "Hijikata Toshizo",
-    "field": "Berserker",
+    "class": "Berserker",
     "servantId": "161",
     "release": "JP",
     "rating": "5",
@@ -7861,7 +7861,7 @@
   },
   {
     "name": "Frankenstein (Saber)",
-    "field": "Saber",
+    "class": "Saber",
     "servantId": "176",
     "release": "JP",
     "rating": "4",
@@ -8073,7 +8073,7 @@
   },
   {
     "name": "Arthur Pendragon (Prototype)",
-    "field": "Saber",
+    "class": "Saber",
     "servantId": "160",
     "release": "JP",
     "rating": "5",
@@ -8285,7 +8285,7 @@
   },
   {
     "name": "Quetzalcoatl",
-    "field": "Rider",
+    "class": "Rider",
     "servantId": "144",
     "release": "JP",
     "rating": "5",
@@ -8497,7 +8497,7 @@
   },
   {
     "name": "Tamamo no Mae (Lancer)",
-    "field": "Lancer",
+    "class": "Lancer",
     "servantId": "128",
     "release": "JP",
     "rating": "5",
@@ -8709,7 +8709,7 @@
   },
   {
     "name": "Nero Claudius (Caster)",
-    "field": "Caster",
+    "class": "Caster",
     "servantId": "175",
     "release": "JP",
     "rating": "5",
@@ -8921,7 +8921,7 @@
   },
   {
     "name": "Paul Bunyan",
-    "field": "Berserker",
+    "class": "Berserker",
     "servantId": "174",
     "release": "JP",
     "rating": "1",
@@ -9133,7 +9133,7 @@
   },
   {
     "name": "Avenger of Shinjuku",
-    "field": "Avenger",
+    "class": "Avenger",
     "servantId": "158",
     "release": "JP",
     "rating": "4",
@@ -9345,7 +9345,7 @@
   },
   {
     "name": "Ishtar",
-    "field": "Archer",
+    "class": "Archer",
     "servantId": "142",
     "release": "JP",
     "rating": "5",
@@ -9557,7 +9557,7 @@
   },
   {
     "name": "Bedivere",
-    "field": "Saber",
+    "class": "Saber",
     "servantId": "126",
     "release": "NA",
     "rating": "3",
@@ -9769,7 +9769,7 @@
   },
   {
     "name": "Sherlock Holmes",
-    "field": "Ruler",
+    "class": "Ruler",
     "servantId": "173",
     "release": "JP",
     "rating": "5",
@@ -9981,7 +9981,7 @@
   },
   {
     "name": "EMIYA (Alter)",
-    "field": "Archer",
+    "class": "Archer",
     "servantId": "157",
     "release": "JP",
     "rating": "4",
@@ -10193,7 +10193,7 @@
   },
   {
     "name": "Jeanne d'Arc (Santa Lily Alter)",
-    "field": "Lancer",
+    "class": "Lancer",
     "servantId": "141",
     "release": "JP",
     "rating": "4",
@@ -10405,7 +10405,7 @@
   },
   {
     "name": "Tawara Touta",
-    "field": "Archer",
+    "class": "Archer",
     "servantId": "125",
     "release": "NA",
     "rating": "3",
@@ -10617,7 +10617,7 @@
   },
   {
     "name": "Katou Danzou",
-    "field": "Assassin",
+    "class": "Assassin",
     "servantId": "188",
     "release": "JP",
     "rating": "4",
@@ -10829,7 +10829,7 @@
   },
   {
     "name": "Christopher Columbus",
-    "field": "Rider",
+    "class": "Rider",
     "servantId": "172",
     "release": "JP",
     "rating": "3",
@@ -11041,7 +11041,7 @@
   },
   {
     "name": "Shinjuku (Archer)",
-    "field": "Archer",
+    "class": "Archer",
     "servantId": "156",
     "release": "JP",
     "rating": "5",
@@ -11253,7 +11253,7 @@
   },
   {
     "name": "Vlad III (EXTRA)",
-    "field": "Lancer",
+    "class": "Lancer",
     "servantId": "140",
     "release": "JP",
     "rating": "4",
@@ -11465,7 +11465,7 @@
   },
   {
     "name": "Hassan of the Serenity",
-    "field": "Assassin",
+    "class": "Assassin",
     "servantId": "124",
     "release": "NA",
     "rating": "3",
@@ -11677,7 +11677,7 @@
   },
   {
     "name": "Munenori Yagyu",
-    "field": "Saber",
+    "class": "Saber",
     "servantId": "187",
     "release": "JP",
     "rating": "4",
@@ -11889,7 +11889,7 @@
   },
   {
     "name": "Penthesilea",
-    "field": "Berserker",
+    "class": "Berserker",
     "servantId": "171",
     "release": "JP",
     "rating": "4",
@@ -12101,7 +12101,7 @@
   },
   {
     "name": "Mysterious Heroine X (Alter)",
-    "field": "Berserker",
+    "class": "Berserker",
     "servantId": "155",
     "release": "JP",
     "rating": "5",
@@ -12313,7 +12313,7 @@
   },
   {
     "name": "Cleopatra",
-    "field": "Assassin",
+    "class": "Assassin",
     "servantId": "139",
     "release": "JP",
     "rating": "5",
@@ -12525,7 +12525,7 @@
   },
   {
     "name": "Gawain",
-    "field": "Saber",
+    "class": "Saber",
     "servantId": "123",
     "release": "NA",
     "rating": "4",
@@ -12737,7 +12737,7 @@
   },
   {
     "name": "Enkidu",
-    "field": "Lancer",
+    "class": "Lancer",
     "servantId": "143",
     "release": "JP",
     "rating": "5",
@@ -12949,7 +12949,7 @@
   },
   {
     "name": "Assassin of Shinjuku",
-    "field": "Assassin",
+    "class": "Assassin",
     "servantId": "159",
     "release": "JP",
     "rating": "4",
@@ -13161,7 +13161,7 @@
   },
   {
     "name": "Ryougi Shiki (Assassin)",
-    "field": "Assassin",
+    "class": "Assassin",
     "servantId": "92",
     "release": "NA",
     "rating": "4",
@@ -13373,7 +13373,7 @@
   },
   {
     "name": "Altria Pendragon (Lancer Alter)",
-    "field": "Lancer",
+    "class": "Lancer",
     "servantId": "78",
     "release": "NA",
     "rating": "4",
@@ -13585,7 +13585,7 @@
   },
   {
     "name": "Altria Pendragon (Santa Alter)",
-    "field": "Rider",
+    "class": "Rider",
     "servantId": "73",
     "release": "NA",
     "rating": "4",
@@ -13797,7 +13797,7 @@
   },
   {
     "name": "Sakata Kintoki (Rider)",
-    "field": "Rider",
+    "class": "Rider",
     "servantId": "115",
     "release": "NA",
     "rating": "4",
@@ -14009,7 +14009,7 @@
   },
   {
     "name": "Fuuma Kotarou",
-    "field": "Assassin",
+    "class": "Assassin",
     "servantId": "117",
     "release": "NA",
     "rating": "3",
@@ -14221,7 +14221,7 @@
   },
   {
     "name": "Sessyoin Kiara",
-    "field": "",
+    "class": "",
     "servantId": "167",
     "release": "JP",
     "rating": "",
@@ -14433,7 +14433,7 @@
   },
   {
     "name": "Altria Pendragon (Archer)",
-    "field": "Archer",
+    "class": "Archer",
     "servantId": "129",
     "release": "JP",
     "rating": "5",
@@ -14645,7 +14645,7 @@
   },
   {
     "name": "Gilgamesh (Caster)",
-    "field": "Caster",
+    "class": "Caster",
     "servantId": "145",
     "release": "JP",
     "rating": "4",
@@ -14857,7 +14857,7 @@
   },
   {
     "name": "Jaguar Man",
-    "field": "Lancer",
+    "class": "Lancer",
     "servantId": "148",
     "release": "JP",
     "rating": "3",
@@ -15069,7 +15069,7 @@
   },
   {
     "name": "Miyamoto Musashi",
-    "field": "Saber",
+    "class": "Saber",
     "servantId": "153",
     "release": "JP",
     "rating": "5",
@@ -15281,7 +15281,7 @@
   },
   {
     "name": "Minamoto-no-Raikou",
-    "field": "Berserker",
+    "class": "Berserker",
     "servantId": "114",
     "release": "NA",
     "rating": "5",
@@ -15493,7 +15493,7 @@
   },
   {
     "name": "Merlin",
-    "field": "Caster",
+    "class": "Caster",
     "servantId": "150",
     "release": "JP",
     "rating": "5",
@@ -15705,7 +15705,7 @@
   },
   {
     "name": "Cu Chulainn (Caster)",
-    "field": "Caster",
+    "class": "Caster",
     "servantId": "38",
     "release": "NA",
     "rating": "3",
@@ -15917,7 +15917,7 @@
   },
   {
     "name": "Gilles de Rais (Caster)",
-    "field": "Caster",
+    "class": "Caster",
     "servantId": "32",
     "release": "NA",
     "rating": "3",
@@ -16129,7 +16129,7 @@
   },
   {
     "name": "Ibaraki-Douji",
-    "field": "Berserker",
+    "class": "Berserker",
     "servantId": "116",
     "release": "NA",
     "rating": "4",
@@ -16341,7 +16341,7 @@
   },
   {
     "name": "Leonardo da Vinci",
-    "field": "Caster",
+    "class": "Caster",
     "servantId": "127",
     "release": "NA",
     "rating": "5",
@@ -16553,7 +16553,7 @@
   },
   {
     "name": "Xuanzang Sanzang",
-    "field": "Caster",
+    "class": "Caster",
     "servantId": "113",
     "release": "NA",
     "rating": "5",
@@ -16765,7 +16765,7 @@
   },
   {
     "name": "Shuten-Douji",
-    "field": "Assassin",
+    "class": "Assassin",
     "servantId": "112",
     "release": "NA",
     "rating": "5",
@@ -16977,7 +16977,7 @@
   },
   {
     "name": "Irisviel (Dress of Heaven)",
-    "field": "Caster",
+    "class": "Caster",
     "servantId": "111",
     "release": "NA",
     "rating": "4",
@@ -17189,7 +17189,7 @@
   },
   {
     "name": "Hassan of the Hundred Personas",
-    "field": "Assassin",
+    "class": "Assassin",
     "servantId": "110",
     "release": "NA",
     "rating": "3",
@@ -17401,7 +17401,7 @@
   },
   {
     "name": "EMIYA (Assassin)",
-    "field": "Assassin",
+    "class": "Assassin",
     "servantId": "109",
     "release": "NA",
     "rating": "4",
@@ -17613,7 +17613,7 @@
   },
   {
     "name": "Iskandar",
-    "field": "Rider",
+    "class": "Rider",
     "servantId": "108",
     "release": "NA",
     "rating": "5",
@@ -17825,7 +17825,7 @@
   },
   {
     "name": "Angra Mainyu",
-    "field": "Avenger",
+    "class": "Avenger",
     "servantId": "107",
     "release": "NA",
     "rating": "0",
@@ -18037,7 +18037,7 @@
   },
   {
     "name": "Jeanne d'Arc (Alter)",
-    "field": "Avenger",
+    "class": "Avenger",
     "servantId": "106",
     "release": "NA",
     "rating": "5",
@@ -18249,7 +18249,7 @@
   },
   {
     "name": "Billy the Kid",
-    "field": "Archer",
+    "class": "Archer",
     "servantId": "105",
     "release": "NA",
     "rating": "3",
@@ -18461,7 +18461,7 @@
   },
   {
     "name": "Geronimo",
-    "field": "Caster",
+    "class": "Caster",
     "servantId": "104",
     "release": "NA",
     "rating": "3",
@@ -18673,7 +18673,7 @@
   },
   {
     "name": "Thomas Edison",
-    "field": "Caster",
+    "class": "Caster",
     "servantId": "103",
     "release": "NA",
     "rating": "4",
@@ -18885,7 +18885,7 @@
   },
   {
     "name": "Li Shuwen",
-    "field": "Lancer",
+    "class": "Lancer",
     "servantId": "102",
     "release": "NA",
     "rating": "4",
@@ -19097,7 +19097,7 @@
   },
   {
     "name": "Rama",
-    "field": "Saber",
+    "class": "Saber",
     "servantId": "101",
     "release": "NA",
     "rating": "4",
@@ -19309,7 +19309,7 @@
   },
   {
     "name": "Helena Blavatsky",
-    "field": "Caster",
+    "class": "Caster",
     "servantId": "100",
     "release": "NA",
     "rating": "4",
@@ -19521,7 +19521,7 @@
   },
   {
     "name": "Queen Medb",
-    "field": "Rider",
+    "class": "Rider",
     "servantId": "99",
     "release": "NA",
     "rating": "5",
@@ -19733,7 +19733,7 @@
   },
   {
     "name": "Cu Chulainn (Alter)",
-    "field": "Berserker",
+    "class": "Berserker",
     "servantId": "98",
     "release": "NA",
     "rating": "5",
@@ -19945,7 +19945,7 @@
   },
   {
     "name": "Nightingale",
-    "field": "Berserker",
+    "class": "Berserker",
     "servantId": "97",
     "release": "NA",
     "rating": "5",
@@ -20157,7 +20157,7 @@
   },
   {
     "name": "Edmond Dantes",
-    "field": "Avenger",
+    "class": "Avenger",
     "servantId": "96",
     "release": "NA",
     "rating": "5",
@@ -20369,7 +20369,7 @@
   },
   {
     "name": "Kid Gilgamesh",
-    "field": "Archer",
+    "class": "Archer",
     "servantId": "95",
     "release": "NA",
     "rating": "3",
@@ -20581,7 +20581,7 @@
   },
   {
     "name": "Astolfo",
-    "field": "Rider",
+    "class": "Rider",
     "servantId": "94",
     "release": "NA",
     "rating": "4",
@@ -20793,7 +20793,7 @@
   },
   {
     "name": "Amakusa Shirou",
-    "field": "Ruler",
+    "class": "Ruler",
     "servantId": "93",
     "release": "NA",
     "rating": "5",
@@ -21005,7 +21005,7 @@
   },
   {
     "name": "Ryougi Shiki (Saber)",
-    "field": "Saber",
+    "class": "Saber",
     "servantId": "91",
     "release": "NA",
     "rating": "5",
@@ -21217,7 +21217,7 @@
   },
   {
     "name": "Nero Claudius (Bride)",
-    "field": "Saber",
+    "class": "Saber",
     "servantId": "90",
     "release": "NA",
     "rating": "5",
@@ -21429,7 +21429,7 @@
   },
   {
     "name": "Beowulf",
-    "field": "Berserker",
+    "class": "Berserker",
     "servantId": "89",
     "release": "NA",
     "rating": "4",
@@ -21641,7 +21641,7 @@
   },
   {
     "name": "Brynhild",
-    "field": "Lancer",
+    "class": "Lancer",
     "servantId": "88",
     "release": "NA",
     "rating": "5",
@@ -21853,7 +21853,7 @@
   },
   {
     "name": "Fionn mac Cumhaill",
-    "field": "Lancer",
+    "class": "Lancer",
     "servantId": "87",
     "release": "NA",
     "rating": "4",
@@ -22065,7 +22065,7 @@
   },
   {
     "name": "Mysterious Heroine X",
-    "field": "Assassin",
+    "class": "Assassin",
     "servantId": "86",
     "release": "NA",
     "rating": "5",
@@ -22277,7 +22277,7 @@
   },
   {
     "name": "Karna",
-    "field": "Lancer",
+    "class": "Lancer",
     "servantId": "85",
     "release": "NA",
     "rating": "5",
@@ -22489,7 +22489,7 @@
   },
   {
     "name": "Arjuna",
-    "field": "Archer",
+    "class": "Archer",
     "servantId": "84",
     "release": "NA",
     "rating": "5",
@@ -22701,7 +22701,7 @@
   },
   {
     "name": "Solomon",
-    "field": "Caster (Grand)",
+    "class": "Caster(Grand)",
     "servantId": "83",
     "release": "JP",
     "rating": "5",
@@ -22913,7 +22913,7 @@
   },
   {
     "name": "Frankenstein",
-    "field": "Berserker",
+    "class": "Berserker",
     "servantId": "82",
     "release": "NA",
     "rating": "4",
@@ -23125,7 +23125,7 @@
   },
   {
     "name": "Henry Jekyll & Hyde",
-    "field": "Assassin",
+    "class": "Assassin",
     "servantId": "81",
     "release": "NA",
     "rating": "3",
@@ -23337,7 +23337,7 @@
   },
   {
     "name": "Charles Babbage",
-    "field": "Caster",
+    "class": "Caster",
     "servantId": "80",
     "release": "NA",
     "rating": "3",
@@ -23549,7 +23549,7 @@
   },
   {
     "name": "Paracelsus von Hohenheim",
-    "field": "Caster",
+    "class": "Caster",
     "servantId": "79",
     "release": "NA",
     "rating": "3",
@@ -23761,7 +23761,7 @@
   },
   {
     "name": "Nikola Tesla",
-    "field": "Archer",
+    "class": "Archer",
     "servantId": "77",
     "release": "NA",
     "rating": "5",
@@ -23973,7 +23973,7 @@
   },
   {
     "name": "Mordred",
-    "field": "Saber",
+    "class": "Saber",
     "servantId": "76",
     "release": "NA",
     "rating": "5",
@@ -24185,7 +24185,7 @@
   },
   {
     "name": "Jack the Ripper",
-    "field": "Assassin",
+    "class": "Assassin",
     "servantId": "75",
     "release": "NA",
     "rating": "5",
@@ -24397,7 +24397,7 @@
   },
   {
     "name": "Nursery Rhyme",
-    "field": "Caster",
+    "class": "Caster",
     "servantId": "74",
     "release": "NA",
     "rating": "4",
@@ -24609,7 +24609,7 @@
   },
   {
     "name": "Fergus mac Roich",
-    "field": "Saber",
+    "class": "Saber",
     "servantId": "72",
     "release": "NA",
     "rating": "3",
@@ -24821,7 +24821,7 @@
   },
   {
     "name": "Diarmuid ua Duibhne",
-    "field": "Lancer",
+    "class": "Lancer",
     "servantId": "71",
     "release": "NA",
     "rating": "3",
@@ -25033,7 +25033,7 @@
   },
   {
     "name": "Scathach",
-    "field": "Lancer",
+    "class": "Lancer",
     "servantId": "70",
     "release": "NA",
     "rating": "5",
@@ -25448,7 +25448,7 @@
   },
   {
     "name": "Oda Nobunaga",
-    "field": "Archer",
+    "class": "Archer",
     "servantId": "69",
     "release": "NA",
     "rating": "4",
@@ -25660,7 +25660,7 @@
   },
   {
     "name": "Okita Souji",
-    "field": "Saber",
+    "class": "Saber",
     "servantId": "68",
     "release": "NA",
     "rating": "5",
@@ -25872,7 +25872,7 @@
   },
   {
     "name": "Medea (Lily)",
-    "field": "Caster",
+    "class": "Caster",
     "servantId": "67",
     "release": "NA",
     "rating": "4",
@@ -26084,7 +26084,7 @@
   },
   {
     "name": "Anne Bonny & Mary Read",
-    "field": "Rider",
+    "class": "Rider",
     "servantId": "66",
     "release": "NA",
     "rating": "4",
@@ -26296,7 +26296,7 @@
   },
   {
     "name": "Francis Drake",
-    "field": "Rider",
+    "class": "Rider",
     "servantId": "65",
     "release": "NA",
     "rating": "5",
@@ -26508,7 +26508,7 @@
   },
   {
     "name": "Hektor",
-    "field": "Lancer",
+    "class": "Lancer",
     "servantId": "64",
     "release": "NA",
     "rating": "3",
@@ -26720,7 +26720,7 @@
   },
   {
     "name": "David",
-    "field": "Archer",
+    "class": "Archer",
     "servantId": "63",
     "release": "NA",
     "rating": "3",
@@ -26932,7 +26932,7 @@
   },
   {
     "name": "Tamamo no Mae",
-    "field": "Caster",
+    "class": "Caster",
     "servantId": "62",
     "release": "NA",
     "rating": "5",
@@ -27144,7 +27144,7 @@
   },
   {
     "name": "Elisabeth Bathory (Halloween)",
-    "field": "Caster",
+    "class": "Caster",
     "servantId": "61",
     "release": "NA",
     "rating": "4",
@@ -27356,7 +27356,7 @@
   },
   {
     "name": "Orion",
-    "field": "Archer",
+    "class": "Archer",
     "servantId": "60",
     "release": "NA",
     "rating": "5",
@@ -27568,7 +27568,7 @@
   },
   {
     "name": "Jeanne d'Arc",
-    "field": "Ruler",
+    "class": "Ruler",
     "servantId": "59",
     "release": "NA",
     "rating": "5",
@@ -27780,7 +27780,7 @@
   },
   {
     "name": "Tamamo Cat",
-    "field": "Berserker",
+    "class": "Berserker",
     "servantId": "58",
     "release": "NA",
     "rating": "4",
@@ -27992,7 +27992,7 @@
   },
   {
     "name": "Eric Bloodaxe",
-    "field": "Berserker",
+    "class": "Berserker",
     "servantId": "57",
     "release": "NA",
     "rating": "2",
@@ -28204,7 +28204,7 @@
   },
   {
     "name": "Kiyohime",
-    "field": "Berserker",
+    "class": "Berserker",
     "servantId": "56",
     "release": "NA",
     "rating": "3",
@@ -28619,7 +28619,7 @@
   },
   {
     "name": "Darius III",
-    "field": "Berserker",
+    "class": "Berserker",
     "servantId": "55",
     "release": "NA",
     "rating": "3",
@@ -28831,7 +28831,7 @@
   },
   {
     "name": "Caligula",
-    "field": "Berserker",
+    "class": "Berserker",
     "servantId": "54",
     "release": "NA",
     "rating": "2",
@@ -29043,7 +29043,7 @@
   },
   {
     "name": "Asterios",
-    "field": "Berserker",
+    "class": "Berserker",
     "servantId": "53",
     "release": "NA",
     "rating": "1",
@@ -29255,7 +29255,7 @@
   },
   {
     "name": "Vlad III",
-    "field": "Berserker",
+    "class": "Berserker",
     "servantId": "52",
     "release": "NA",
     "rating": "5",
@@ -29467,7 +29467,7 @@
   },
   {
     "name": "Sakata Kintoki",
-    "field": "Berserker",
+    "class": "Berserker",
     "servantId": "51",
     "release": "NA",
     "rating": "5",
@@ -29679,7 +29679,7 @@
   },
   {
     "name": "Spartacus",
-    "field": "Berserker",
+    "class": "Berserker",
     "servantId": "50",
     "release": "NA",
     "rating": "1",
@@ -29891,7 +29891,7 @@
   },
   {
     "name": "Lu Bu Fengxian",
-    "field": "Berserker",
+    "class": "Berserker",
     "servantId": "49",
     "release": "NA",
     "rating": "3",
@@ -30103,7 +30103,7 @@
   },
   {
     "name": "Lancelot",
-    "field": "Berserker",
+    "class": "Berserker",
     "servantId": "48",
     "release": "NA",
     "rating": "4",
@@ -30315,7 +30315,7 @@
   },
   {
     "name": "Heracles",
-    "field": "Berserker",
+    "class": "Berserker",
     "servantId": "47",
     "release": "NA",
     "rating": "4",
@@ -30527,7 +30527,7 @@
   },
   {
     "name": "Carmilla",
-    "field": "Assassin",
+    "class": "Assassin",
     "servantId": "46",
     "release": "NA",
     "rating": "4",
@@ -30739,7 +30739,7 @@
   },
   {
     "name": "Mata Hari",
-    "field": "Assassin",
+    "class": "Assassin",
     "servantId": "45",
     "release": "NA",
     "rating": "1",
@@ -30951,7 +30951,7 @@
   },
   {
     "name": "Phantom of the Opera",
-    "field": "Assassin",
+    "class": "Assassin",
     "servantId": "44",
     "release": "NA",
     "rating": "2",
@@ -31163,7 +31163,7 @@
   },
   {
     "name": "Charles-Henri Sanson",
-    "field": "Assassin",
+    "class": "Assassin",
     "servantId": "43",
     "release": "NA",
     "rating": "2",
@@ -31375,7 +31375,7 @@
   },
   {
     "name": "Jing Ke",
-    "field": "Assassin",
+    "class": "Assassin",
     "servantId": "42",
     "release": "NA",
     "rating": "3",
@@ -31587,7 +31587,7 @@
   },
   {
     "name": "Stheno",
-    "field": "Assassin",
+    "class": "Assassin",
     "servantId": "41",
     "release": "NA",
     "rating": "4",
@@ -31799,7 +31799,7 @@
   },
   {
     "name": "Hassan of the Cursed Arm",
-    "field": "Assassin",
+    "class": "Assassin",
     "servantId": "40",
     "release": "NA",
     "rating": "2",
@@ -32011,7 +32011,7 @@
   },
   {
     "name": "Sasaki Kojiro",
-    "field": "Assassin",
+    "class": "Assassin",
     "servantId": "39",
     "release": "NA",
     "rating": "1",
@@ -32223,7 +32223,7 @@
   },
   {
     "name": "Zhuge Liang (El-Melloi II)",
-    "field": "Caster",
+    "class": "Caster",
     "servantId": "37",
     "release": "NA",
     "rating": "5",
@@ -32435,7 +32435,7 @@
   },
   {
     "name": "Wolfgang Amadeus Mozart",
-    "field": "Caster",
+    "class": "Caster",
     "servantId": "36",
     "release": "NA",
     "rating": "1",
@@ -32647,7 +32647,7 @@
   },
   {
     "name": "Mephistopheles",
-    "field": "Caster",
+    "class": "Caster",
     "servantId": "35",
     "release": "NA",
     "rating": "3",
@@ -32859,7 +32859,7 @@
   },
   {
     "name": "William Shakespeare",
-    "field": "Caster",
+    "class": "Caster",
     "servantId": "34",
     "release": "NA",
     "rating": "2",
@@ -33071,7 +33071,7 @@
   },
   {
     "name": "Hans Christian Andersen",
-    "field": "Caster",
+    "class": "Caster",
     "servantId": "33",
     "release": "NA",
     "rating": "2",
@@ -33283,7 +33283,7 @@
   },
   {
     "name": "Medea",
-    "field": "Caster",
+    "class": "Caster",
     "servantId": "31",
     "release": "NA",
     "rating": "3",
@@ -33495,7 +33495,7 @@
   },
   {
     "name": "Saint Martha",
-    "field": "Rider",
+    "class": "Rider",
     "servantId": "30",
     "release": "NA",
     "rating": "4",
@@ -33707,7 +33707,7 @@
   },
   {
     "name": "Marie Antoinette",
-    "field": "Rider",
+    "class": "Rider",
     "servantId": "29",
     "release": "NA",
     "rating": "4",
@@ -33919,7 +33919,7 @@
   },
   {
     "name": "Alexander",
-    "field": "Rider",
+    "class": "Rider",
     "servantId": "28",
     "release": "NA",
     "rating": "3",
@@ -34131,7 +34131,7 @@
   },
   {
     "name": "Ushiwakamaru",
-    "field": "Rider",
+    "class": "Rider",
     "servantId": "27",
     "release": "NA",
     "rating": "3",
@@ -34343,7 +34343,7 @@
   },
   {
     "name": "Boudica",
-    "field": "Rider",
+    "class": "Rider",
     "servantId": "26",
     "release": "NA",
     "rating": "3",
@@ -34555,7 +34555,7 @@
   },
   {
     "name": "Edward Teach",
-    "field": "Rider",
+    "class": "Rider",
     "servantId": "25",
     "release": "NA",
     "rating": "2",
@@ -34767,7 +34767,7 @@
   },
   {
     "name": "Georgios",
-    "field": "Rider",
+    "class": "Rider",
     "servantId": "24",
     "release": "NA",
     "rating": "2",
@@ -34979,7 +34979,7 @@
   },
   {
     "name": "Medusa",
-    "field": "Rider",
+    "class": "Rider",
     "servantId": "23",
     "release": "NA",
     "rating": "3",
@@ -35191,7 +35191,7 @@
   },
   {
     "name": "Romulus",
-    "field": "Lancer",
+    "class": "Lancer",
     "servantId": "22",
     "release": "NA",
     "rating": "3",
@@ -35403,7 +35403,7 @@
   },
   {
     "name": "Leonidas",
-    "field": "Lancer",
+    "class": "Lancer",
     "servantId": "21",
     "release": "NA",
     "rating": "2",
@@ -35615,7 +35615,7 @@
   },
   {
     "name": "Cu Chulainn (Prototype)",
-    "field": "Lancer",
+    "class": "Lancer",
     "servantId": "20",
     "release": "NA",
     "rating": "3",
@@ -35827,7 +35827,7 @@
   },
   {
     "name": "Musashibou Benkei",
-    "field": "Lancer",
+    "class": "Lancer",
     "servantId": "19",
     "release": "NA",
     "rating": "2",
@@ -36039,7 +36039,7 @@
   },
   {
     "name": "Elisabeth Bathory",
-    "field": "Lancer",
+    "class": "Lancer",
     "servantId": "18",
     "release": "NA",
     "rating": "4",
@@ -36251,7 +36251,7 @@
   },
   {
     "name": "Cu Chulainn",
-    "field": "Lancer",
+    "class": "Lancer",
     "servantId": "17",
     "release": "NA",
     "rating": "3",
@@ -36463,7 +36463,7 @@
   },
   {
     "name": "Arash",
-    "field": "Archer",
+    "class": "Archer",
     "servantId": "16",
     "release": "NA",
     "rating": "1",
@@ -36675,7 +36675,7 @@
   },
   {
     "name": "Euryale",
-    "field": "Archer",
+    "class": "Archer",
     "servantId": "15",
     "release": "NA",
     "rating": "3",
@@ -36887,7 +36887,7 @@
   },
   {
     "name": "Atalante",
-    "field": "Archer",
+    "class": "Archer",
     "servantId": "14",
     "release": "NA",
     "rating": "4",
@@ -37099,7 +37099,7 @@
   },
   {
     "name": "Robin Hood",
-    "field": "Archer",
+    "class": "Archer",
     "servantId": "13",
     "release": "NA",
     "rating": "3",
@@ -37311,7 +37311,7 @@
   },
   {
     "name": "Gilgamesh",
-    "field": "Archer",
+    "class": "Archer",
     "servantId": "12",
     "release": "NA",
     "rating": "5",
@@ -37523,7 +37523,7 @@
   },
   {
     "name": "EMIYA",
-    "field": "Archer",
+    "class": "Archer",
     "servantId": "11",
     "release": "NA",
     "rating": "4",
@@ -37735,7 +37735,7 @@
   },
   {
     "name": "Chevalier d'Eon",
-    "field": "Saber",
+    "class": "Saber",
     "servantId": "10",
     "release": "NA",
     "rating": "4",
@@ -37947,7 +37947,7 @@
   },
   {
     "name": "Gilles de Rais",
-    "field": "Saber",
+    "class": "Saber",
     "servantId": "9",
     "release": "NA",
     "rating": "3",
@@ -38159,7 +38159,7 @@
   },
   {
     "name": "Altera",
-    "field": "Saber",
+    "class": "Saber",
     "servantId": "8",
     "release": "NA",
     "rating": "5",
@@ -38371,7 +38371,7 @@
   },
   {
     "name": "Gaius Julius Caesar",
-    "field": "Saber",
+    "class": "Saber",
     "servantId": "7",
     "release": "NA",
     "rating": "3",
@@ -38583,7 +38583,7 @@
   },
   {
     "name": "Siegfried",
-    "field": "Saber",
+    "class": "Saber",
     "servantId": "6",
     "release": "NA",
     "rating": "4",
@@ -38795,7 +38795,7 @@
   },
   {
     "name": "Nero Claudius",
-    "field": "Saber",
+    "class": "Saber",
     "servantId": "5",
     "release": "NA",
     "rating": "4",
@@ -39007,7 +39007,7 @@
   },
   {
     "name": "Altria Pendragon (Lily)",
-    "field": "Saber",
+    "class": "Saber",
     "servantId": "4",
     "release": "NA",
     "rating": "4",
@@ -39219,7 +39219,7 @@
   },
   {
     "name": "Altria Pendragon (Alter)",
-    "field": "Saber",
+    "class": "Saber",
     "servantId": "3",
     "release": "NA",
     "rating": "4",
@@ -39431,7 +39431,7 @@
   },
   {
     "name": "Altria Pendragon",
-    "field": "Saber",
+    "class": "Saber",
     "servantId": "2",
     "release": "NA",
     "rating": "5",
@@ -39643,7 +39643,7 @@
   },
   {
     "name": "Mash Kyrielight",
-    "field": "Shielder",
+    "class": "Shielder",
     "servantId": "1",
     "release": "NA",
     "rating": "3",
