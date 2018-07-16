@@ -19,7 +19,7 @@ MongoClient.connect(url, {useNewUrlParser: true}, (error, client) => {
   const servants = db.collection("servants");
 
   data.forEach((datum) => {
-    servants.findOneAndUpdate(datum, {$setOnInsert: datum}, {upsert: true}, (error, result) => {
+    servants.findOneAndUpdate({servantId: datum.servantId}, {$set: datum}, {upsert: true}, (error, result) => {
       if (error) {
         console.error(`failed to add ${datum.name} : ${error.message}`);
       } else {
