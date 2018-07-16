@@ -2153,7 +2153,7 @@
   },
   {
     "name": "Beast III/R",
-    "class": "",
+    "class": "Unclassified",
     "servantId": "168",
     "release": "JP",
     "rating": "5",
@@ -2366,7 +2366,7 @@
   },
   {
     "name": "Solomon (Grand Caster)",
-    "class": "",
+    "class": "Unclassified",
     "servantId": "83",
     "release": "JP",
     "rating": "5",
@@ -3218,7 +3218,7 @@
   },
   {
     "name": "Goetia",
-    "class": "",
+    "class": "Unclassified",
     "servantId": "151",
     "release": "JP",
     "rating": "5",
@@ -4070,7 +4070,7 @@
   },
   {
     "name": "BB",
-    "class": "",
+    "class": "Unclassified",
     "servantId": "166",
     "release": "JP",
     "rating": "4",
@@ -4922,7 +4922,7 @@
   },
   {
     "name": "Tiamat",
-    "class": "",
+    "class": "Unclassified",
     "servantId": "149",
     "release": "JP",
     "rating": "5",
@@ -14294,7 +14294,7 @@
   },
   {
     "name": "Sessyoin Kiara",
-    "class": "",
+    "class": "Unclassified",
     "servantId": "167",
     "release": "JP",
     "rating": "",

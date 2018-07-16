@@ -86,7 +86,7 @@ const fetchServantData = (version) => {
         const name = $("a").text().trim(); // should be only one anchor tag
         return {
           name,
-          field: datum.field_class,
+          class: datum.field_class.replace(/\s+/g, ""),
           servantId: datum.servant_id,
           release: datum.release_status,
           rating
@@ -211,7 +211,13 @@ dataDirPromise
         hpStats[level] = parseInt(stats[h], 10);
       }
 
-      return Object.assign(datum, {stats: {attack: attackStats, hp: hpStats}});
+      let classUpdate = {}
+      if (datum.class === "") {
+        classUpdate = {class: "Unclassified"};
+      }
+      return Object.assign(datum,
+                           classUpdate,
+                           {stats: {attack: attackStats, hp: hpStats}});
     })
   })
   .then((data) => jsonfile.writeFileSync(createFileName(currentVersion, "clean"), data, {spaces: 2}))
