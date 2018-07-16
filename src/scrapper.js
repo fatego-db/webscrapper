@@ -173,10 +173,45 @@ const comb = (data) => {
  *  7. Save stat.json
  *  8. Comb results
  *  9. Save comb.json
+ *  10. Clean up stats field.
+ *  11. Save clean.json
  */
 const currentVersion = "v20";
 dataDirPromise
   .then((success) => getServantData(currentVersion))
   .then(comb)
-  .then((data) => jsonfile.writeFileSync(createFileName(currentVersion, "comb"), data, {spaces: 2}))
+  .then((data) => {
+    jsonfile.writeFileSync(createFileName(currentVersion, "comb"), data, {spaces: 2});
+    return data;
+  })
+  .then((data) => {
+    return data.map((datum, index) => {
+      if (datum.stats.length === 0) {
+        return Object.assign(datum, {stats: {attack: [], hp: []}});
+      }
+      const stats = datum.stats[0];
+      const statKeys = Object.keys(stats);
+
+      const attackFields = Object.keys(stats)
+        .filter((key) => key.startsWith("field_atk_"));
+      const hpFields = Object.keys(stats)
+        .filter((key) => key.startsWith("field_hp_"));
+
+      const attackStats = new Array(attackFields.length);
+      const hpStats = new Array(hpFields.length);
+
+      let level;
+      for (let a of attackFields) {
+        level = parseInt(a.split("field_atk_")[1], 10) - 1;
+        attackStats[level] = parseInt(stats[a], 10);
+      }
+      for (let h of hpFields) {
+        level = parseInt(h.split("field_hp_")[1], 10) - 1;
+        hpStats[level] = parseInt(stats[h], 10);
+      }
+
+      return Object.assign(datum, {stats: {attack: attackStats, hp: hpStats}});
+    })
+  })
+  .then((data) => jsonfile.writeFileSync(createFileName(currentVersion, "clean"), data, {spaces: 2}))
   .then(() => console.log(`Version ${currentVersion} data collected`));
