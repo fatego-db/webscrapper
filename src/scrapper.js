@@ -186,7 +186,9 @@ dataDirPromise
     return data;
   })
   .then((data) => {
-    return data.map((datum, index) => {
+    return data
+      .filter((datum) => datum.name !== "Solomon (Grand Caster)")
+      .map((datum, index) => {
       if (datum.stats.length === 0) {
         return Object.assign(datum, {stats: {attack: [], hp: []}});
       }
@@ -211,13 +213,27 @@ dataDirPromise
         hpStats[level] = parseInt(stats[h], 10);
       }
 
-      let classUpdate = {}
-      if (datum.class === "") {
-        classUpdate = {class: "Unclassified"};
-      }
       return Object.assign(datum,
-                           classUpdate,
                            {stats: {attack: attackStats, hp: hpStats}});
+    })
+  })
+  .then((data) => {
+    return data.map((datum, index) => {
+      let classUpdate = {class: "unclassified"};
+      const categories = ["saber", "archer", "lancer",
+                          "rider", "assassin", "caster",
+                          "berserker", "shielder",
+                          "alterego", "ruler", "avenger",
+                          "foreigner", "mooncancer", "beast"];
+      for (let category of categories) {
+        if (datum.class.toLowerCase().startsWith(category)) {
+          console.log(datum.name);
+          classUpdate = {class: category};
+          break;
+        }
+      }
+
+      return Object.assign(datum, classUpdate);
     })
   })
   .then((data) => jsonfile.writeFileSync(createFileName(currentVersion, "clean"), data, {spaces: 2}))
