@@ -5,7 +5,7 @@
   "main": "src/scapper.js",
   "scripts": {
     "scrape": "node src/scrapper.js",
-    "import": "node src/importer.js"
+    "importdb": "node src/importer.js"
   },
   "author": "David Lam",
   "license": "MIT",
