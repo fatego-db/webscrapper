@@ -5,7 +5,7 @@ const jsonfile = require("jsonfile");
 
 const url = process.env.MONGO_URI;
 
-const currentVersion = "v20";
+const currentVersion = process.env.VERSION;
 const data = jsonfile.readFileSync(path.join(__dirname, "..", "data", `servants_${currentVersion}.clean.json`));
 
 MongoClient.connect(url, {useNewUrlParser: true}, (error, client) => {

@@ -1,3 +1,4 @@
+require("dotenv").config();
 const path = require("path");
 const fs = require("fs");
 const mkdirp = require("mkdirp");
@@ -176,7 +177,7 @@ const comb = (data) => {
  *  10. Clean up stats field.
  *  11. Save clean.json
  */
-const currentVersion = "v20";
+const currentVersion = process.env.VERSION;
 dataDirPromise
   .then((success) => getServantData(currentVersion))
   .then(comb)
