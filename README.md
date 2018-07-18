@@ -41,9 +41,9 @@ yarn importdb
    - [ ] name
    - [ ] effects
 3. Skills
-   - [ ] name
-   - [ ] effects
-   - [ ] growth
+   - [x] name
+   - [x] effects
+   - [x] growth
 4. Materials
    - [ ] name
    - [ ] farm location
