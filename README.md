@@ -10,6 +10,8 @@ Create a `.env`
 MONGO_URI=mongodb://<username>:<password>@<endpoint>:<port>/<db>
 VERSION=v<number>
 ```
+**Note** `VERSION` must be prefixed by the character `v`.
+
 
 ### Scrape
 ```
@@ -22,8 +24,6 @@ yarn scrape
 npm run importdb
 yarn importdb
 ```
-
-**Note** `VERSION` must be prefixed by the character `v`.
 
 ## Features
 1. Servants
