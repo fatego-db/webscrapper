@@ -2,6 +2,7 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 const cheerioTableParser = require("cheerio-tableparser");
 const fs = require("fs");
+const Entities = require("html-entities").AllHtmlEntities;
 const jsonfile = require("jsonfile");
 const path = require("path");
 
@@ -10,11 +11,14 @@ class SkillProcessor {
     this.dataDir = dataDir;
     this.version = version;
 
+    this.entities = new Entities();
+
     this.getSkillGrowth = this.getSkillGrowth.bind(this);
     this.getServantSkills = this.getServantSkills.bind(this);
     this.createFileName = this.createFileName.bind(this);
     this.cacheFile = this.cacheFile.bind(this);
     this.filterServerErrors = this.filterServerErrors.bind(this);
+    this.unescapeTitle = this.unescapeTitle.bind(this);
     this.comb = this.comb.bind(this);
   }
 
@@ -90,6 +94,10 @@ class SkillProcessor {
     return data.filter((datum) => datum.leveling !== 503);
   }
 
+  unescapeTitle(data) {
+    return data.map((datum) => Object.assign(datum, {name: this.entities.decode(datum.name)}));
+  }
+
   comb(data) {
     const missingData = data.filter((datum) => datum.leveling.ref);
     if (missingData.length > 0) {
@@ -128,6 +136,7 @@ class SkillProcessor {
 
     return basicData
       .then(this.filterServerErrors)
+      .then(this.unescapeTitle)
       .then((data) => this.cacheFile(data, "filter"))
       .then(this.comb)
       .then((data) => this.cacheFile(data, "clean"))
