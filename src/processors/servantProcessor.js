@@ -114,7 +114,7 @@ class ServantProcessor {
     const filename = this.createFileName("stat");
     let fetchTask;
     if (fs.existsSync(filename)) {
-      console.log("reading cached data");
+      console.log("reading servants data from cache");
       fetchTask = new Promise((resolve, reject) => {
         jsonfile.readFile(filename, (error, data) => {
           if (error) {
