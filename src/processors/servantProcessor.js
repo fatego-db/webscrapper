@@ -4,11 +4,11 @@ const fs = require("fs");
 const jsonfile = require("jsonfile");
 const path = require("path");
 const sleep = require("sleep");
+const fetchEndpointFor = require("./fetchUtil");
 
 class ServantProcessor {
-  constructor(dataDir, version) {
+  constructor(dataDir) {
     this.dataDir = dataDir;
-    this.version = version;
 
     this.createFileName = this.createFileName.bind(this);
     this.getServantStats = this.getServantStats.bind(this);
@@ -27,7 +27,7 @@ class ServantProcessor {
    *  @return {String}         Path string to data file.
    */
   createFileName(tag) {
-    return path.join(this.dataDir, `servants_${this.version}.${tag}.json`);
+    return path.join(this.dataDir, `servants.${tag}.json`);
   };
 
   /**
@@ -40,6 +40,8 @@ class ServantProcessor {
     const urlName = datum.name.replace(/[()'\/&]/g, "")
       .replace(/ of /g, " ")
       .replace(/ the /g, " ")
+      .replace(/=/g,"")
+      .replace(/\./g, "")
       .replace(/\s+/g, "-")
       .toLowerCase();
     const profileEndpoint = `https://grandorder.gamepress.gg/servant/${urlName}`;
@@ -57,10 +59,9 @@ class ServantProcessor {
       .then((stats) => Object.assign(datum, {stats}))
       .catch((error) => { // Avoid crashing; cache data and comb through it later.
         if (error.response) {
-          console.log(error.response.config);
-          console.log(error.response.config.url)
+          console.error(`status=${error.response.status} url=${error.response.config.url}`);
         } else {
-          console.log(error);
+          console.error(error);
         }
         return Object.assign(datum, {stats: "error"});
       });
@@ -73,10 +74,8 @@ class ServantProcessor {
    *  @return {Array}          Array of Servant datum
    */
   fetchServantData() {
-    const servantEndpoint = "https://grandorder.gamepress.gg/sites/grandorder/files/fgo-jsons/servants.json";
-    const endpoint = `${servantEndpoint}?${this.version}`;
-
-    return axios.get(endpoint)
+    return fetchEndpointFor("servants-FGO")
+      .then((url) => axios.get(url))
       .then((response) => response.data)
       .then((data) => {
         return data.map((datum) => {
@@ -102,7 +101,14 @@ class ServantProcessor {
           return this.getServantStats(datum);
         }));
       })
-      .then((data) => this.cacheFile(data, "stat"));
+      .then((data) => this.cacheFile(data, "stat"))
+      .catch((error) => {
+        if (error.response) {
+          console.error(`status=${error.response.status} url=${error.response.config.url}`);
+        } else {
+          console.error(error);
+        }
+      });
   }
 
   /**
@@ -232,7 +238,7 @@ class ServantProcessor {
   *  11. Save clean.json
   */
   process() {
-    return this.getServantData(this.version)
+    return this.getServantData()
       .then(this.comb)
       .then((data) => this.cacheFile(data, "comb"))
       .then(this.cleanStats)
