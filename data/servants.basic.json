@@ -1,0 +1,1647 @@
+[
+  {
+    "name": "Miyu Edelfelt",
+    "class": "Caster",
+    "servantId": "236",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Li Shuwen (Assassin)",
+    "class": "Assassin",
+    "servantId": "235",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Benienma",
+    "class": "Saber",
+    "servantId": "234",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Quetzalcoatl (Samba/Santa)",
+    "class": "Ruler",
+    "servantId": "233",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Bradamante",
+    "class": "Lancer",
+    "servantId": "232",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Red Hare",
+    "class": "Rider",
+    "servantId": "231",
+    "release": "JP",
+    "rating": "3"
+  },
+  {
+    "name": "Yu Miaoyi",
+    "class": "Assassin",
+    "servantId": "230",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Shi Huang Di",
+    "class": "Ruler",
+    "servantId": "229",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Qin Liangyu",
+    "class": "Lancer",
+    "servantId": "228",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Lanling Wang",
+    "class": "Saber",
+    "servantId": "227",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Xiang Yu",
+    "class": "Berserker",
+    "servantId": "226",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Shuten-Douji (Caster)",
+    "class": "Caster",
+    "servantId": "225",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Sitonai",
+    "class": "AlterEgo",
+    "servantId": "224",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Diarmuid Ua Duibhne (Saber)",
+    "class": "Saber",
+    "servantId": "223",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Mysterious Heroine XX",
+    "class": "Foreigner",
+    "servantId": "222",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Queen Medb (Saber)",
+    "class": "Saber",
+    "servantId": "221",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "BB (Summer)",
+    "class": "Mooncancer",
+    "servantId": "220",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Jeanne d'Arc (Berserker Alter)",
+    "class": "Berserker",
+    "servantId": "219",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Ushiwakamaru (Assassin)",
+    "class": "Assassin",
+    "servantId": "218",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Ibaraki-Douji (Lancer)",
+    "class": "Lancer",
+    "servantId": "217",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Jeanne d'Arc (Archer)",
+    "class": "Archer",
+    "servantId": "216",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Scathach=Skadi",
+    "class": "Caster",
+    "servantId": "215",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Valkyrie",
+    "class": "Lancer",
+    "servantId": "214",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Sigurd",
+    "class": "Saber",
+    "servantId": "213",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Napoleon",
+    "class": "Archer",
+    "servantId": "212",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Sakamoto Ryouma",
+    "class": "Rider",
+    "servantId": "211",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Okada Izou",
+    "class": "Assassin",
+    "servantId": "210",
+    "release": "JP",
+    "rating": "3"
+  },
+  {
+    "name": "Okita Souji (Alter)",
+    "class": "AlterEgo",
+    "servantId": "209",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Sieg",
+    "class": "Caster",
+    "servantId": "208",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Chiron",
+    "class": "Archer",
+    "servantId": "207",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Achilles",
+    "class": "Rider",
+    "servantId": "206",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Ivan the Terrible",
+    "class": "Rider",
+    "servantId": "205",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Antonio Salieri",
+    "class": "Avenger",
+    "servantId": "204",
+    "release": "JP",
+    "rating": "3"
+  },
+  {
+    "name": "Avicebron",
+    "class": "Caster",
+    "servantId": "203",
+    "release": "JP",
+    "rating": "3"
+  },
+  {
+    "name": "Atalante (Alter)",
+    "class": "Berserker",
+    "servantId": "202",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Anastasia Nikolaevna Romanova",
+    "class": "Caster",
+    "servantId": "201",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Asagami Fujino",
+    "class": "Archer",
+    "servantId": "200",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Semiramis",
+    "class": "Assassin",
+    "servantId": "199",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Katsushika Hokusai",
+    "class": "Foreigner",
+    "servantId": "198",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Altera the San(ta)",
+    "class": "Archer",
+    "servantId": "197",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Ereshkigal",
+    "class": "Lancer",
+    "servantId": "196",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Abigail Williams",
+    "class": "Foreigner",
+    "servantId": "195",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Midrash Caster",
+    "class": "Caster",
+    "servantId": "194",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Nezha",
+    "class": "Lancer",
+    "servantId": "193",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Okeanos Caster",
+    "class": "Caster",
+    "servantId": "192",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Mecha Eli-chan Mk.II",
+    "class": "AlterEgo",
+    "servantId": "191",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Mecha Eli-chan",
+    "class": "AlterEgo",
+    "servantId": "190",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Osakabehime",
+    "class": "Assassin",
+    "servantId": "189",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Kiyohime (Lancer)",
+    "class": "Lancer",
+    "servantId": "134",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Scathach (Assassin)",
+    "class": "Assassin",
+    "servantId": "133",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Houzouin Inshun",
+    "class": "Lancer",
+    "servantId": "186",
+    "release": "JP",
+    "rating": "3"
+  },
+  {
+    "name": "Wu Zetian",
+    "class": "Assassin",
+    "servantId": "170",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "First Hassan",
+    "class": "Assassin",
+    "servantId": "154",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Elisabeth Bathory (Brave)",
+    "class": "Saber",
+    "servantId": "138",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Tristan",
+    "class": "Archer",
+    "servantId": "122",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Mochizuki Chiyome",
+    "class": "Assassin",
+    "servantId": "185",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Caster of the Nightless City",
+    "class": "Caster",
+    "servantId": "169",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Chloe von Einzbern",
+    "class": "Archer",
+    "servantId": "137",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Lancelot (Saber)",
+    "class": "Saber",
+    "servantId": "121",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Tomoe Gozen",
+    "class": "Archer",
+    "servantId": "184",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Beast III/R",
+    "class": "",
+    "servantId": "168",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Solomon (Grand Caster)",
+    "class": "Caster(Grand)",
+    "servantId": "83",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Illyasviel von Einzbern",
+    "class": "Caster",
+    "servantId": "136",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Nitocris",
+    "class": "Caster",
+    "servantId": "120",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Parvati",
+    "class": "Lancer",
+    "servantId": "183",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Goetia",
+    "class": "Beast",
+    "servantId": "151",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Saint Martha (Ruler)",
+    "class": "Ruler",
+    "servantId": "135",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Altria Pendragon (Lancer)",
+    "class": "Lancer",
+    "servantId": "119",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Ishtar (Rider)",
+    "class": "Rider",
+    "servantId": "182",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "BB",
+    "class": "Mooncancer",
+    "servantId": "166",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Ozymandias",
+    "class": "Rider",
+    "servantId": "118",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Minamoto no Raikou (Lancer)",
+    "class": "Lancer",
+    "servantId": "181",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Suzuka Gozen",
+    "class": "Saber",
+    "servantId": "165",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Tiamat",
+    "class": "",
+    "servantId": "149",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Helena Blavatsky (Archer)",
+    "class": "Archer",
+    "servantId": "180",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Passionlip",
+    "class": "AlterEgo",
+    "servantId": "164",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Mordred (Rider)",
+    "class": "Rider",
+    "servantId": "132",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Altria Pendragon (Rider Alter)",
+    "class": "Rider",
+    "servantId": "179",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Meltryllis",
+    "class": "AlterEgo",
+    "servantId": "163",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Gorgon",
+    "class": "Avenger",
+    "servantId": "147",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Anne Bonny & Mary Read (Archer)",
+    "class": "Archer",
+    "servantId": "131",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Oda Nobunaga (Berserker)",
+    "class": "Berserker",
+    "servantId": "178",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Chacha",
+    "class": "Berserker",
+    "servantId": "162",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Medusa (Lancer)",
+    "class": "Lancer",
+    "servantId": "146",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Marie Antoinette (Caster)",
+    "class": "Caster",
+    "servantId": "130",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Nitocris (Assassin)",
+    "class": "Assassin",
+    "servantId": "177",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Hijikata Toshizo",
+    "class": "Berserker",
+    "servantId": "161",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Frankenstein (Saber)",
+    "class": "Saber",
+    "servantId": "176",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Arthur Pendragon (Prototype)",
+    "class": "Saber",
+    "servantId": "160",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Quetzalcoatl",
+    "class": "Rider",
+    "servantId": "144",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Tamamo no Mae (Lancer)",
+    "class": "Lancer",
+    "servantId": "128",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Nero Claudius (Caster)",
+    "class": "Caster",
+    "servantId": "175",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Paul Bunyan",
+    "class": "Berserker",
+    "servantId": "174",
+    "release": "JP",
+    "rating": "1"
+  },
+  {
+    "name": "Avenger of Shinjuku",
+    "class": "Avenger",
+    "servantId": "158",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Ishtar",
+    "class": "Archer",
+    "servantId": "142",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Bedivere",
+    "class": "Saber",
+    "servantId": "126",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Sherlock Holmes",
+    "class": "Ruler",
+    "servantId": "173",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "EMIYA (Alter)",
+    "class": "Archer",
+    "servantId": "157",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Jeanne d'Arc (Alter Santa Lily)",
+    "class": "Lancer",
+    "servantId": "141",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Tawara Touta",
+    "class": "Archer",
+    "servantId": "125",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Katou Danzou",
+    "class": "Assassin",
+    "servantId": "188",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Christopher Columbus",
+    "class": "Rider",
+    "servantId": "172",
+    "release": "JP",
+    "rating": "3"
+  },
+  {
+    "name": "Archer of Shinjuku",
+    "class": "Archer",
+    "servantId": "156",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Vlad III (EXTRA)",
+    "class": "Lancer",
+    "servantId": "140",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Hassan of the Serenity",
+    "class": "Assassin",
+    "servantId": "124",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Munenori Yagyu",
+    "class": "Saber",
+    "servantId": "187",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Penthesilea",
+    "class": "Berserker",
+    "servantId": "171",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Mysterious Heroine X (Alter)",
+    "class": "Berserker",
+    "servantId": "155",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Cleopatra",
+    "class": "Assassin",
+    "servantId": "139",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Gawain",
+    "class": "Saber",
+    "servantId": "123",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Enkidu",
+    "class": "Lancer",
+    "servantId": "143",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Assassin of Shinjuku",
+    "class": "Assassin",
+    "servantId": "159",
+    "release": "JP",
+    "rating": "4"
+  },
+  {
+    "name": "Ryougi Shiki (Assassin)",
+    "class": "Assassin",
+    "servantId": "92",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Altria Pendragon (Lancer Alter)",
+    "class": "Lancer",
+    "servantId": "78",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Altria Pendragon (Santa Alter)",
+    "class": "Rider",
+    "servantId": "73",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Sakata Kintoki (Rider)",
+    "class": "Rider",
+    "servantId": "115",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Fuuma Kotarou",
+    "class": "Assassin",
+    "servantId": "117",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Sessyoin Kiara",
+    "class": "AlterEgo",
+    "servantId": "167",
+    "release": "JP",
+    "rating": "5"
+  },
+  {
+    "name": "Altria Pendragon (Archer)",
+    "class": "Archer",
+    "servantId": "129",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Gilgamesh (Caster)",
+    "class": "Caster",
+    "servantId": "145",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Jaguar Warrior",
+    "class": "Lancer",
+    "servantId": "148",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Miyamoto Musashi",
+    "class": "Saber",
+    "servantId": "153",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Minamoto-no-Raikou",
+    "class": "Berserker",
+    "servantId": "114",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Merlin",
+    "class": "Caster",
+    "servantId": "150",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Cu Chulainn (Caster)",
+    "class": "Caster",
+    "servantId": "38",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Gilles de Rais (Caster)",
+    "class": "Caster",
+    "servantId": "32",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Ibaraki-Douji",
+    "class": "Berserker",
+    "servantId": "116",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Leonardo da Vinci",
+    "class": "Caster",
+    "servantId": "127",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Xuanzang Sanzang",
+    "class": "Caster",
+    "servantId": "113",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Shuten-Douji",
+    "class": "Assassin",
+    "servantId": "112",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Irisviel (Holy Grail)",
+    "class": "Caster",
+    "servantId": "111",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Hassan of the Hundred Personas",
+    "class": "Assassin",
+    "servantId": "110",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "EMIYA (Assassin)",
+    "class": "Assassin",
+    "servantId": "109",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Iskandar",
+    "class": "Rider",
+    "servantId": "108",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Angra Mainyu",
+    "class": "Avenger",
+    "servantId": "107",
+    "release": "NA",
+    "rating": "0"
+  },
+  {
+    "name": "Jeanne d'Arc (Alter)",
+    "class": "Avenger",
+    "servantId": "106",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Billy the Kid",
+    "class": "Archer",
+    "servantId": "105",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Geronimo",
+    "class": "Caster",
+    "servantId": "104",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Thomas Edison",
+    "class": "Caster",
+    "servantId": "103",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Li Shuwen",
+    "class": "Lancer",
+    "servantId": "102",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Rama",
+    "class": "Saber",
+    "servantId": "101",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Helena Blavatsky",
+    "class": "Caster",
+    "servantId": "100",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Queen Medb",
+    "class": "Rider",
+    "servantId": "99",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Cu Chulainn (Alter)",
+    "class": "Berserker",
+    "servantId": "98",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Nightingale",
+    "class": "Berserker",
+    "servantId": "97",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Edmond Dantes",
+    "class": "Avenger",
+    "servantId": "96",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Kid Gilgamesh",
+    "class": "Archer",
+    "servantId": "95",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Astolfo",
+    "class": "Rider",
+    "servantId": "94",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Amakusa Shirou",
+    "class": "Ruler",
+    "servantId": "93",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Ryougi Shiki (Saber)",
+    "class": "Saber",
+    "servantId": "91",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Nero Claudius (Bride)",
+    "class": "Saber",
+    "servantId": "90",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Beowulf",
+    "class": "Berserker",
+    "servantId": "89",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Brynhild",
+    "class": "Lancer",
+    "servantId": "88",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Fionn mac Cumhaill",
+    "class": "Lancer",
+    "servantId": "87",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Mysterious Heroine X",
+    "class": "Assassin",
+    "servantId": "86",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Karna",
+    "class": "Lancer",
+    "servantId": "85",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Arjuna",
+    "class": "Archer",
+    "servantId": "84",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Frankenstein",
+    "class": "Berserker",
+    "servantId": "82",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Henry Jekyll & Hyde",
+    "class": "Assassin",
+    "servantId": "81",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Charles Babbage",
+    "class": "Caster",
+    "servantId": "80",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Paracelsus von Hohenheim",
+    "class": "Caster",
+    "servantId": "79",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Nikola Tesla",
+    "class": "Archer",
+    "servantId": "77",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Mordred",
+    "class": "Saber",
+    "servantId": "76",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Jack the Ripper",
+    "class": "Assassin",
+    "servantId": "75",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Nursery Rhyme",
+    "class": "Caster",
+    "servantId": "74",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Fergus mac Roich",
+    "class": "Saber",
+    "servantId": "72",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Diarmuid ua Duibhne",
+    "class": "Lancer",
+    "servantId": "71",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Scathach",
+    "class": "Lancer",
+    "servantId": "70",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Oda Nobunaga",
+    "class": "Archer",
+    "servantId": "69",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Okita Souji",
+    "class": "Saber",
+    "servantId": "68",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Medea (Lily)",
+    "class": "Caster",
+    "servantId": "67",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Anne Bonny & Mary Read",
+    "class": "Rider",
+    "servantId": "66",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Francis Drake",
+    "class": "Rider",
+    "servantId": "65",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Hektor",
+    "class": "Lancer",
+    "servantId": "64",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "David",
+    "class": "Archer",
+    "servantId": "63",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Tamamo-no-Mae",
+    "class": "Caster",
+    "servantId": "62",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Elisabeth Bathory (Halloween)",
+    "class": "Caster",
+    "servantId": "61",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Orion",
+    "class": "Archer",
+    "servantId": "60",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Jeanne d'Arc",
+    "class": "Ruler",
+    "servantId": "59",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Tamamo Cat",
+    "class": "Berserker",
+    "servantId": "58",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Eric Bloodaxe",
+    "class": "Berserker",
+    "servantId": "57",
+    "release": "NA",
+    "rating": "2"
+  },
+  {
+    "name": "Kiyohime",
+    "class": "Berserker",
+    "servantId": "56",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Darius III",
+    "class": "Berserker",
+    "servantId": "55",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Caligula",
+    "class": "Berserker",
+    "servantId": "54",
+    "release": "NA",
+    "rating": "2"
+  },
+  {
+    "name": "Asterios",
+    "class": "Berserker",
+    "servantId": "53",
+    "release": "NA",
+    "rating": "1"
+  },
+  {
+    "name": "Vlad III",
+    "class": "Berserker",
+    "servantId": "52",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Sakata Kintoki",
+    "class": "Berserker",
+    "servantId": "51",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Spartacus",
+    "class": "Berserker",
+    "servantId": "50",
+    "release": "NA",
+    "rating": "1"
+  },
+  {
+    "name": "Lu Bu Fengxian",
+    "class": "Berserker",
+    "servantId": "49",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Lancelot",
+    "class": "Berserker",
+    "servantId": "48",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Heracles",
+    "class": "Berserker",
+    "servantId": "47",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Carmilla",
+    "class": "Assassin",
+    "servantId": "46",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Mata Hari",
+    "class": "Assassin",
+    "servantId": "45",
+    "release": "NA",
+    "rating": "1"
+  },
+  {
+    "name": "Phantom of the Opera",
+    "class": "Assassin",
+    "servantId": "44",
+    "release": "NA",
+    "rating": "2"
+  },
+  {
+    "name": "Charles-Henri Sanson",
+    "class": "Assassin",
+    "servantId": "43",
+    "release": "NA",
+    "rating": "2"
+  },
+  {
+    "name": "Jing Ke",
+    "class": "Assassin",
+    "servantId": "42",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Stheno",
+    "class": "Assassin",
+    "servantId": "41",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Hassan of the Cursed Arm",
+    "class": "Assassin",
+    "servantId": "40",
+    "release": "NA",
+    "rating": "2"
+  },
+  {
+    "name": "Sasaki Kojirou",
+    "class": "Assassin",
+    "servantId": "39",
+    "release": "NA",
+    "rating": "1"
+  },
+  {
+    "name": "Zhuge Liang (El-Melloi II)",
+    "class": "Caster",
+    "servantId": "37",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Wolfgang Amadeus Mozart",
+    "class": "Caster",
+    "servantId": "36",
+    "release": "NA",
+    "rating": "1"
+  },
+  {
+    "name": "Mephistopheles",
+    "class": "Caster",
+    "servantId": "35",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "William Shakespeare",
+    "class": "Caster",
+    "servantId": "34",
+    "release": "NA",
+    "rating": "2"
+  },
+  {
+    "name": "Hans Christian Andersen",
+    "class": "Caster",
+    "servantId": "33",
+    "release": "NA",
+    "rating": "2"
+  },
+  {
+    "name": "Medea",
+    "class": "Caster",
+    "servantId": "31",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Saint Martha",
+    "class": "Rider",
+    "servantId": "30",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Marie Antoinette",
+    "class": "Rider",
+    "servantId": "29",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Alexander",
+    "class": "Rider",
+    "servantId": "28",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Ushiwakamaru",
+    "class": "Rider",
+    "servantId": "27",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Boudica",
+    "class": "Rider",
+    "servantId": "26",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Edward Teach",
+    "class": "Rider",
+    "servantId": "25",
+    "release": "NA",
+    "rating": "2"
+  },
+  {
+    "name": "Georgios",
+    "class": "Rider",
+    "servantId": "24",
+    "release": "NA",
+    "rating": "2"
+  },
+  {
+    "name": "Medusa",
+    "class": "Rider",
+    "servantId": "23",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Romulus",
+    "class": "Lancer",
+    "servantId": "22",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Leonidas",
+    "class": "Lancer",
+    "servantId": "21",
+    "release": "NA",
+    "rating": "2"
+  },
+  {
+    "name": "Cu Chulainn (Prototype)",
+    "class": "Lancer",
+    "servantId": "20",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Musashibou Benkei",
+    "class": "Lancer",
+    "servantId": "19",
+    "release": "NA",
+    "rating": "2"
+  },
+  {
+    "name": "Elisabeth Bathory",
+    "class": "Lancer",
+    "servantId": "18",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Cu Chulainn",
+    "class": "Lancer",
+    "servantId": "17",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Arash",
+    "class": "Archer",
+    "servantId": "16",
+    "release": "NA",
+    "rating": "1"
+  },
+  {
+    "name": "Euryale",
+    "class": "Archer",
+    "servantId": "15",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Atalante",
+    "class": "Archer",
+    "servantId": "14",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Robin Hood",
+    "class": "Archer",
+    "servantId": "13",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Gilgamesh",
+    "class": "Archer",
+    "servantId": "12",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "EMIYA",
+    "class": "Archer",
+    "servantId": "11",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Chevalier d'Eon",
+    "class": "Saber",
+    "servantId": "10",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Gilles de Rais",
+    "class": "Saber",
+    "servantId": "9",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Altera",
+    "class": "Saber",
+    "servantId": "8",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Gaius Julius Caesar",
+    "class": "Saber",
+    "servantId": "7",
+    "release": "NA",
+    "rating": "3"
+  },
+  {
+    "name": "Siegfried",
+    "class": "Saber",
+    "servantId": "6",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Nero Claudius",
+    "class": "Saber",
+    "servantId": "5",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Altria Pendragon (Lily)",
+    "class": "Saber",
+    "servantId": "4",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Altria Pendragon (Alter)",
+    "class": "Saber",
+    "servantId": "3",
+    "release": "NA",
+    "rating": "4"
+  },
+  {
+    "name": "Altria Pendragon",
+    "class": "Saber",
+    "servantId": "2",
+    "release": "NA",
+    "rating": "5"
+  },
+  {
+    "name": "Mash Kyrielight",
+    "class": "Shielder",
+    "servantId": "1",
+    "release": "NA",
+    "rating": "4"
+  }
+]
