@@ -2,14 +2,15 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 const cheerioTableParser = require("cheerio-tableparser");
 const fs = require("fs");
+const sleep = require("sleep");
 const Entities = require("html-entities").AllHtmlEntities;
 const jsonfile = require("jsonfile");
 const path = require("path");
+const fetchEndpointFor = require("./fetchUtil");
 
 class SkillProcessor {
-  constructor(dataDir, version) {
+  constructor(dataDir) {
     this.dataDir = dataDir;
-    this.version = version;
 
     this.entities = new Entities();
 
@@ -22,7 +23,10 @@ class SkillProcessor {
     this.comb = this.comb.bind(this);
   }
 
-  getSkillGrowth(skillRef) {
+  getSkillGrowth(name, meta, effects, skillRef) {
+    if (skillRef.includes("http")) {
+      throw new Error(skillRef);
+    }
     const skillUrl = `https://grandorder.gamepress.gg${skillRef}`;
     return axios.get(skillUrl)
       .then((response) => response.data)
@@ -49,24 +53,36 @@ class SkillProcessor {
         };
       })
       .catch((error) => {
-        const errorType = (error.response) ? error.response.status
-                                           : {ref: skillRef};
-        console.error(`failed: ${name} : ${errorType}`);
+        let status;
+        if (error.response) {
+          status = error.response.status;
+        } else if (error.request) {
+          status = "REQUEST_ERROR";
+        } else {
+          status = "UNKNOWN";
+        }
+        
+        console.error(`failed: name=${name} error=${error} status=${status} url=${skillUrl}`);
+        const ref = (status === 503) ? {error: "NOT_FOUND"} : {ref: skillRef};
         return {
           name,
           meta,
           effects,
-          leveling: errorType
+          leveling: ref
         };
       });
   }
 
   getServantSkills() {
-    const url = `https://grandorder.gamepress.gg/sites/grandorder/files/fgo-jsons/servant-skills.json?${this.version}`;
-    return axios.get(url)
+    return fetchEndpointFor("servant-skills-FGO")
+      .then((url) => axios.get(url))
       .then((response) => response.data)
       .then((data) => {
         return Promise.all(data.map((datum, index) => {
+          if (index % 10 === 0) {
+            sleep.sleep(1);
+          }
+          console.log(`${index} / ${data.length} ${datum.title_plain}`);
           const name = datum.title_plain;
           const meta = {
             type: datum.skill_type,
@@ -76,13 +92,13 @@ class SkillProcessor {
           const effects = $("p").text().split("\n");
 
           const skillRef = $("a").attr("href");
-          return this.getSkillGrowth(skillRef);
+          return this.getSkillGrowth(name, meta, effects, skillRef);
         }));
       });
   }
 
   createFileName(tag) {
-    return path.join(this.dataDir, `skills_${this.version}.${tag}.json`);
+    return path.join(this.dataDir, `skills.${tag}.json`);
   }
 
   cacheFile(data, tag) {
@@ -103,7 +119,7 @@ class SkillProcessor {
     if (missingData.length > 0) {
       return Promise.all(data.map((datum) => {
         if (datum.leveling.ref) {
-          return this.getSkillGrowth(datum.leveling.ref);
+          return this.getSkillGrowth(datum.name, datum.meta, datum.effects, datum.leveling.ref);
         } else {
           return Promise.resolve(datum);
         }
@@ -139,9 +155,9 @@ class SkillProcessor {
       .then(this.unescapeTitle)
       .then((data) => this.cacheFile(data, "filter"))
       .then(this.comb)
+      .then((data) => data.filter((datum) => datum.leveling.error !== "NOT_FOUND"))
       .then((data) => this.cacheFile(data, "clean"))
       .catch((error) => console.error(error.message));
-
   }
 }
 

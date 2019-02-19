@@ -5,13 +5,10 @@ const SetupProcessor = require("./processors/setupProcessor");
 const ServantProcessor = require("./processors/servantProcessor");
 const SkillProcessor = require("./processors/skillProcessor");
 
-const SERVANT_VERSION = process.env.SERVANT_VERSION;
-const SKILL_VERSION = process.env.SKILL_VERSION;
-
 const dataDir = path.join(__dirname, "..", "data");
 const setupProcessor = new SetupProcessor(dataDir);
-const servantProcessor = new ServantProcessor(dataDir, SERVANT_VERSION);
-const skillProcessor = new SkillProcessor(dataDir, SKILL_VERSION);
+const servantProcessor = new ServantProcessor(dataDir);
+const skillProcessor = new SkillProcessor(dataDir);
 
 setupProcessor.process()
   .then(() => servantProcessor.process())
