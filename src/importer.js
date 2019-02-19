@@ -5,13 +5,10 @@ const jsonfile = require("jsonfile");
 
 const url = process.env.MONGO_URI;
 
-const SERVANT_VERSION = process.env.SERVANT_VERSION;
 const servantData = jsonfile.readFileSync(path.join(__dirname, "..", "data",
-  `servants_${SERVANT_VERSION}.clean.json`));
-
-const SKILL_VERSION = process.env.SKILL_VERSION;
+  `servants.clean.json`));
 const skillData = jsonfile.readFileSync(path.join(__dirname, "..", "data",
-  `skills_${SKILL_VERSION}.clean.json`));
+  `skills.clean.json`));
 
 const constructInsertHandler = (operation, datum) => {
   return (error, result) => {
