@@ -8,8 +8,6 @@ completion.
 Create a `.env`
 ```
 MONGO_URI=mongodb://<username>:<password>@<endpoint>:<port>/<db>
-SERVANT_VERSION=v<number>
-SKILL_VERSION=v<number>
 ```
 **Note** `VERSION` must be prefixed by the character `v`.
 
